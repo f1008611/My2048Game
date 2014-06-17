@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	symlinks = false
+	ignorecase = true
+	hideDotFiles = dotGitOnly
+	sharedrepository = 2
+[receive]
+	denyNonFastforwards = true
+[remote "My2048Game"]
+	url = git@github.com:f1008611/My2048Game.git
+	fetch = +refs/heads/*:refs/remotes/My2048Game/*
+	puttykeyfile = D:/cocos2dworkspace/My2048Game/private.ppk
